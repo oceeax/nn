@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>域名导航页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        body {
+            background-color: #f7f7f4;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3d4543;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            border-radius: 16px;
+            padding: 28px 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            transition: all 0.25s ease;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .num {
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .card a {
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: 500;
+            display: block;
+        }
+
+        .card small {
+            display: block;
+            margin-top: 8px;
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        /* 1. 淡橙色 */
+        .c1 {
+            background: #fbeedd;
+            color: #8a6239;
+        }
+
+        /* 2. 淡黄色 */
+        .c2 {
+            background: #fbf5dc;
+            color: #8a7a38;
+        }
+
+        /* 3. 淡绿色 */
+        .c3 {
+            background: #e8f1e1;
+            color: #4f7a42;
+        }
+
+        /* 4. 淡蓝色 */
+        .c4 {
+            background: #e4eef7;
+            color: #3d5a7a;
+        }
+
+        /* 5. 淡紫色 */
+        .c5 {
+            background: #eee6f3;
+            color: #6a4f7a;
+        }
+
+        /* 6. 淡青褐色 */
+        .c6 {
+            background: #e4ebe6;
+            color: #53615c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>域名导航</h1>
+
+        <div class="grid">
+            <div class="card c1">
+                <a href="https://voao.online" target="_blank"><span class="num">1.</span>voao.online</a>
+                <small>点击访问</small>
+            </div>
+
+            <div class="card c2">
+                <a href="https://covv.online" target="_blank"><span class="num">2.</span>covv.online</a>
+                <small>点击访问</small>
+            </div>
+
+            <div class="card c3">
+                <a href="https://sazc.art" target="_blank"><span class="num">3.</span>sazc.art</a>
+                <small>点击访问</small>
+            </div>
+
+            <div class="card c4">
+                <a href="https://ddaa.online" target="_blank"><span class="num">4.</span>ddaa.online</a>
+                <small>点击访问</small>
+            </div>
+
+            <div class="card c5">
+                <a href="https://ssww.online" target="_blank"><span class="num">5.</span>ssww.online</a>
+                <small>点击访问</small>
+            </div>
+
+            <div class="card c6">
+                <a href="https://dfdd.site" target="_blank"><span class="num">6.</span>dfdd.site</a>
+                <small>点击访问</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
